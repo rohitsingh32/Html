@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    /*(5)set an image as a background of a page
+    ANS-below line👇👇*/
+    background-image: url('1.jpg');
+    
+    
+}
+
+.three {
+    background-color: black;
+    color: white;
+    height: 60px;
+    display: flex;
+    list-style: none; 
+    align-items: center;
+    /* position: static; */
+    /* top: 0; */
+    
+}
+
+
+
+
+.three li a {
+    padding: 10px;
+    cursor: pointer;
+    font-size: larger;
+
+}
+
+/*(4) How to set background color of a page-->
+Ans-I am solve this question using html and css
+   ANS is 👇below👇 line*/
+
+.body {
+    background-color: aqua;
+}
+
+.body .last {
+    height: 60px;
+    background-color: black;
+    color: white;
+    /* text-align: center;
+    align-items: center;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.one{
+    height: 90vh;
+}
